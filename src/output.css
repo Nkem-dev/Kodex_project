@@ -2485,6 +2485,10 @@
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
   }
+  .font-normal {
+    --tw-font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-normal);
+  }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
@@ -2770,6 +2774,27 @@
       content: var(--tw-content);
       --tw-content: '';
       content: var(--tw-content);
+    }
+  }
+  .hover\:cursor-pointer {
+    &:hover {
+      @media (hover: hover) {
+        cursor: pointer;
+      }
+    }
+  }
+  .hover\:bg-\[\#1b1b1b\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #1b1b1b;
+      }
+    }
+  }
+  .hover\:bg-\[\#e68815\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #e68815;
+      }
     }
   }
   .hover\:bg-transparent {
